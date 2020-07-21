@@ -1,5 +1,6 @@
 io.github.interestinglab.waterdrop.output.batch.Clickhouse
 io.github.interestinglab.waterdrop.output.batch.Elasticsearch
+io.github.interestinglab.waterdrop.output.batch.ElasticsearchBinlog
 io.github.interestinglab.waterdrop.output.batch.File
 io.github.interestinglab.waterdrop.output.batch.Hdfs
 io.github.interestinglab.waterdrop.output.batch.Jdbc
