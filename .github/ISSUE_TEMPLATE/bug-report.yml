@@ -64,7 +64,7 @@ body:
       description: Provide SeaTunnel Config, please delete sensitive information to prevent information leakage
       placeholder: >
         Please provide the SeaTunnel Config here.
-      render: shell
+      render: Scala
     validations:
       required: true
 
@@ -74,6 +74,7 @@ body:
       description: Provide the command you begin and run SeaTunnel job.
       placeholder: >
         Please provide the running command here.
+      render: shell
     validations:
       required: true
 
@@ -83,7 +84,7 @@ body:
       description: Provide the error exception when you run your command.
       placeholder: >
         Please provide the error exception here.
-      render: shell
+      render: log
     validations:
       required: true
 
